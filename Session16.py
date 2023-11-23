@@ -29,3 +29,21 @@ print(chair2.number_of_legs)
 
 
 # %%
+
+class Counter:
+    def __init__(self, number_of_people = 0):
+      self.number_of_people = number_of_people
+
+    def increase(self):
+       self.number_of_people += 1
+
+Counter1 = Counter()
+Counter2  = Counter()
+
+Counter1.increase()
+Counter2.increase()
+print(Counter1.number_of_people)
+print(Counter2.number_of_people)       
+      
+
+# %%
